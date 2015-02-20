@@ -1,0 +1,716 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+				<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+				<title>Subject Line</title>
+				<style type="text/css">
+			/* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+			.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+			.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+			body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+			table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+			img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+			/* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+			body{margin:0; padding:0;}
+			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+			table{border-collapse:collapse !important;}
+			body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+			/* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
+
+			/* ========== Page Styles ========== */
+
+			#bodyCell{padding:0px;}
+			.templateContainer{width:600px;}
+
+			body, #bodyTable{
+				background-color:#ffffff;
+			}
+
+			#bodyCell{
+				border-top:0px solid #BBBBBB;
+				background-color: #FFFFFF;
+			}
+			
+			#blackNav {
+				background-color: black;
+			}
+
+			.templateContainer{
+				border:0px;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:0;
+				margin-left:0; 
+			}
+
+			h1{
+				color:#000000 !important;
+				display:block;
+				font-family:Georgia, serif;
+				font-size:54px;
+				font-style:normal;
+				font-weight:normal;
+				line-height:88%;
+				letter-spacing:normal;
+				margin-top:32px;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				text-align:left;
+			}
+
+			h2{
+				color:#000000 !important;
+				display:block;
+				font-family:Arial,sans-serif;
+				font-size:20px;
+				font-style:normal;
+				font-weight:bold;
+				line-height:100%;
+				letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				text-align:left;
+			}
+
+			h3{
+				color:#000000 !important;
+				display:block;
+				font-family:Arial,sans-serif;
+				font-size:20px;
+				font-style:normal;
+				font-weight:bold;
+				line-height:100%;
+				letter-spacing:normal;
+				margin-top:10px;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				text-align:center;
+			}
+
+			h4{
+				color:#000000 !important;
+				display:block;
+				font-family:Arial,sans-serif;
+				font-size:13px;
+				font-style:normal;
+				font-weight:bold;
+				line-height:100%;
+				letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:0;
+				margin-left:0;
+				text-align:left;
+			}
+
+			strong{
+				font-family:Arial,sans-serif;
+				font-weight:bold;
+			}
+
+			p{
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:8px;
+				margin-left:0;
+			}
+
+			.button {
+				border-radius: 3px; 
+				margin-bottom: 3px; 
+			}
+
+			.button a{
+				display:block; 
+				text-decoration:none;
+				text-align:center;
+			}
+
+			.button.primary {
+				background-color:#f6201d; 
+				box-shadow:#BE0201 0px 3px 0px 0px; 
+			}
+
+			.button.primary a{
+				color:#FFFFFF; 
+			}
+
+			.button.secondary {
+				background-color:#c3c3c3; 
+				box-shadow:#818181 0px 3px 0px 0px; 
+			}
+
+			.button.secondary a{
+				color:#383838; 
+			}
+
+			.buttonContent {
+				font-family:Arial, sans-serif; 
+				font-size:20px; 
+				font-weight:bold; 
+				line-height:100%; 
+				padding-bottom:20px; 
+				padding-left:40px; 
+				padding-right:40px; 
+				padding-top:20px; 
+				letter-spacing:.02em;
+			}
+
+			/*////// FRAMEWORK STYLES //////*/
+
+			.flexibleContainerCell {
+				padding-top:0; 
+				padding-right:0; 
+				padding-left:0;
+			}
+
+			.flexibleImage{
+				height:auto;
+			}
+			
+			.bottomShim{
+				padding-bottom:20px;
+			}
+
+			.imageContent, .imageContentLast{padding-bottom:16px;}
+			.nestedContainerCell{padding-top:20px; padding-Right:20px; padding-Left:20px;}
+
+			/* ========== Header Styles ========== */
+
+			#templatePreheader{
+				background-color:#F4F4F4;
+				border-bottom:1px solid #CCCCCC;
+			}
+
+			.preheaderContent{
+				color:#808080;
+				font-family:Arial,sans-serif;
+				font-size:10px;
+				line-height:125%;
+				text-align:left;
+			}
+
+			.preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
+				color:#606060;
+				font-weight:normal;
+				text-decoration:underline;
+			}
+
+			#templateHeader{
+				background-color:#000000;
+				border-top:0;
+				border-bottom:0;
+				margin-bottom: 25px;
+			}
+
+			.headerContent{
+				color:#505050;
+				font-family:Arial,sans-serif;
+				font-size:20px;
+				font-weight:bold;
+				line-height:100%;
+				padding-top:16px;
+				padding-right:16px;
+				padding-bottom:16px;
+				padding-left:16px;
+				text-align:left;
+				vertical-align:middle;
+			}
+
+			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+				color:#EB4102;
+				font-weight:normal;
+				text-decoration:underline;
+			}
+
+			#headerImage{
+				height:auto;
+				max-width:600px;
+			}
+
+			.social-sharing img{
+				padding-top:0;
+				padding-right:5px;
+				padding-bottom:0;
+				padding-left:0;
+			}
+
+			/* ========== Body Styles ========== */
+
+			.templateBody{
+				background-color:#FFFFFF;
+				border-top:0px solid #FFFFFF;
+				border-bottom:0px solid #CCCCCC;
+			}
+
+			.doubleRule{
+				border-top:1px solid #000000;
+				border-bottom:1px solid #000000;
+				padding-top:16px;
+				padding-right:0px;
+				padding-bottom:16px;
+				padding-left:0px;
+			}
+
+			.bodyContent{
+				font-family:Georgia,serif;
+				font-size:16px;
+				line-height:150%;
+				padding-top:0;
+				padding-right:0;
+				padding-bottom:0;
+				padding-left:0;
+				text-align:left;
+			}
+
+			.bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
+				color:#000000;
+				font-weight:bold;
+				text-decoration:underline;
+				font-family:Arial, sans-serif;
+				font-size: 15px;
+			}
+
+			.bodyContent img{
+				display:inline;
+				height:auto;
+				max-width:600px;
+			}
+
+			.bodyContent strong{ 
+				font-size: 15px;
+			}
+
+			.mainImage {
+				height:auto !important;
+				max-width:600px !important;
+				width:100% !important;
+				padding-top:16px;
+				padding-right:0;
+				padding-bottom:16px;
+				padding-left:0;
+			}
+
+			/* ========== Column Styles ========== */
+
+			.templateColumnContainer{width:260px;}
+
+			#templateColumns{
+				background-color:#FFFFFF;
+			}
+
+			.leftColumnContent{
+				color:#505050;
+				font-family:Arial,sans-serif;
+				font-size:14px;
+				line-height:150%;
+				padding-top:0;
+				padding-right:10px;
+				padding-bottom:0;
+				padding-left:0;
+				text-align:left;
+			}
+
+			.rightColumnContent{
+				color:#505050;
+				font-family:Arial,sans-serif;
+				font-size:14px;
+				line-height:150%;
+				padding-top:0;
+				padding-right:0;
+				padding-bottom:0;
+				padding-left:10px;
+				text-align:left;
+			}
+
+			.leftColumnContent img, .rightColumnContent img{
+				display:inline;
+				height:auto;
+				max-width:260px;
+			}
+
+			/* ========== Footer Styles ========== */
+
+			.gray-footer{
+				background-color:#e6e6e6;
+				color:#000000;
+				font-family:Georgia, serif;
+				font-size:14px;
+				line-height:150%;
+				padding-top:20px;
+				padding-right:30px;
+				padding-bottom:20px;
+				padding-left:30px;
+				text-align:left;
+			}
+
+			.gray-footer em{
+				font-family:arial,sans-serif;
+				font-size:13px;
+				font-style:normal;
+				font-weight:bold;
+			}
+
+			.dark-footer{
+				background-color:#222222;
+				color:#e6e6e6;
+				font-family:arial, sans-serif;
+				font-size:11px;
+				line-height:170%;
+				padding-top:20px;
+				padding-right:30px;
+				padding-bottom:20px;
+				padding-left:30px;
+				text-align:left;
+			}
+
+			.dark-footer a{
+				/*text-decoration: none;*/
+				color:#e6e6e6;
+			}
+
+			.footerContent{
+				color:#808080;
+				font-family:Arial,sans-serif;
+				font-size:10px;
+				line-height:150%;
+				padding-top:20px;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				text-align:left;
+			}
+
+			.footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{
+				color:#606060;
+				font-weight:normal;
+				text-decoration:underline;
+			}
+
+			/* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
+
+						@media only screen and (max-width: 480px){
+				/* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
+				body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
+								body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+
+				/* /\/\/\/\/\/\/ MOBILE RESET STYLES /\/\/\/\/\/\/ */
+				#bodyCell{padding:0px !important;}
+
+				/* /\/\/\/\/\/\/ MOBILE TEMPLATE STYLES /\/\/\/\/\/\/ */
+
+				/* ======== Page Styles ======== */
+
+				.templateContainer{
+					max-width:600px !important;
+					width:100% !important;
+				}
+
+				h1{
+					font-size:34px !important;
+					line-height:100% !important;
+				}
+
+				h2{
+					font-size:20px !important;
+					line-height:100% !important;
+				}
+
+				h3{
+					font-size:18px !important;
+					line-height:100% !important;
+				}
+
+				h4{
+					font-size:14px !important;
+					line-height:100% !important;
+				}
+
+				p{
+					margin-bottom:16px !important;
+				}
+
+				/* ======== Header Styles ======== */
+
+				#templatePreheader{display:none !important;} /* Hide the template preheader to save space */
+
+				#headerImage{
+					height:auto !important;
+					max-width:600px !important;
+					width:100% !important;
+				}
+
+				.headerContent{
+					font-size:20px !important;
+					line-height:125% !important;
+				}
+
+				/* ======== Body Styles ======== */
+
+				.bodyContent{
+					font-size:18px !important;
+					line-height:135% !important;
+					padding-right:10px;
+					padding-left:10px;
+
+				}
+
+				.doubleRule{
+					padding-right:5px;
+					padding-left:5px;
+
+				}
+
+				.bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
+					font-size: 17px !important;
+				}
+
+				.bodyContent strong{ 
+					font-size: 17px !important;
+				}
+
+				/* ======== Column Styles ======== */
+
+				.templateColumnContainer{display:block !important; width:100% !important;}
+
+				.columnImage{
+					height:auto !important;
+					max-width:480px !important;
+					width:100% !important;
+				}
+
+				.leftColumnContent{
+					font-size:16px !important;
+					line-height:125% !important;
+					padding-right:0;
+				}
+
+				.rightColumnContent{
+					font-size:16px !important;
+					line-height:125% !important;
+					padding-left:0;
+				}
+
+
+
+				/* ======== Footer Styles ======== */
+
+				.footerContent{
+					font-size:14px !important;
+					line-height:115% !important;
+				}
+
+				.footerContent a{display:block !important;} /* Place footer social and utility links on their own lines, for easier access */
+			}
+		</style>
+
+	</head>
+	<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+		<center>
+			<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+				<tr>
+					<td align="center" valign="top" id="bodyCell">
+						<!-- BEGIN HEADER // -->
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
+							<tr>
+								<td valign="top" >
+									<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tr>
+											<td class="headerContent" width="50%">
+												<a href="http://generalassemb.ly?utm_source=email_ET&amp;utm_source=p_ga_email">
+												<img src="ga-logo-lockup.png" width="204px" alt="General Assembly"></a>
+											</td>
+											<td width="50%" align="right" class="headerContent">
+												<table width="100%">
+													<tr>
+														<td align="right" class="social-sharing">
+															<a href="https://www.facebook.com/gnrlassembly"><img src="Share-Facebook.png" alt="Facebook" width="9.5px"></a>
+															<a href="https://twitter.com/ga"><img src="Share-Twitter.png" alt="Twitter" width="17px"></a>
+															<a href="http://instagram.com/generalassembly/"><img src="Share-Instagram.png" alt="Instagram" width="17px"></a>
+															<a href="%%addthis_url_email%%"><img src="Share-Email.png" alt="Share via email" width="20px"></a>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+						<!-- // END HEADER -->
+						<!-- BEGIN TEMPLATE // -->
+						<table border="0" cellpadding="0" cellspacing="0" class="templateContainer">
+							<tr>
+								<td align="center" valign="top">
+								<!-- BEGIN BODY // -->
+									<table border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tr>
+											<td valign="top" class="doubleRule">
+												<h4>Upcoming in [Metro]</h4>
+											</td>
+										</tr>
+									</table>
+									<table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateBody">
+										<tr>
+											<td valign="top" class="bodyContent" mc:edit="body_content">
+												<h1>Hedline ~20 characters</h1>
+												<img src="Cult of Culture.jpg" class="mainImage">
+												<p><strong>Sub-heading/lead goes here.</strong> Join us for our 10-week <a href="" class="bodyLink">hyperlinked text</a> course, which kicks off next week in London.</p>
+												<p>After successfully completing the course, all qualified students will have a unique opportunity to <strong>bold text emphasis</strong> with more <a href="" class="bodyLink">hyperlinked text</a>. The internship runs from mid-May to September.</p>
+												<p>Set sail on a new journey.</p>
+											</td>
+										</tr>
+										<!-- BUTTON // -->
+										<tr>
+											<td align="center" valign="top">
+												<table border="0" cellpadding="0" cellspacing="0" width="100%">
+													<tr>
+														<td align="center" valign="top">
+															<table border="0" cellpadding="0" cellspacing="0" width="100%" class="flexibleContainer">
+																<tr>
+																	<td align="center" valign="top" width="100%" class="flexibleContainerCell bottomShim">
+																		<table border="0" cellpadding="0" cellspacing="0" class="button primary">
+																			<tr>
+																				<td align="center" valign="middle" class="buttonContent">
+																					<a href="#" target="_blank">Apply Now</a>
+																				</td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td >
+												<h3>Two CTAs</h3>
+											</td>
+										</tr>
+										<!-- // BUTTON -->
+									</table>
+								<!-- // END BODY -->
+								</td>
+							</tr>
+							<tr>
+								<td align="center" valign="top">
+									<!-- BEGIN COLUMNS // -->
+										<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateColumns">
+											<tr mc:repeatable>
+												<td align="center" valign="top" class="templateColumnContainer">
+													<table border="0" cellpadding="20" cellspacing="0" width="100%">
+														<tr>
+															<td class="leftColumnContent">
+																<!-- BUTTON // -->
+																<table border="0" cellpadding="0" cellspacing="0" width="100%">
+																	<tr>
+																		<td align="center" valign="top">
+																			<table border="0" cellpadding="0" cellspacing="0" width="100%" class="flexibleContainer">
+																				<tr>
+																					<td align="center" valign="top" width="100%" class="flexibleContainerCell bottomShim">
+																						<table border="0" cellpadding="0" cellspacing="0" class="button primary">
+																							<tr>
+																								<td align="center" valign="middle" class="buttonContent">
+																									<a href="#" target="_blank">Apply Now</a>
+																								</td>
+																							</tr>
+																						</table>
+																					</td>
+																				</tr>
+																			</table>
+																		</td>
+																	</tr>
+																</table>
+																<!-- // BUTTON -->
+																</td>
+															</tr>
+														</table>
+													</td>
+												<td align="center" valign="top" class="templateColumnContainer">
+														<table border="0" cellpadding="20" cellspacing="0" width="100%">
+																<tr>
+																		<td class="rightColumnContent">
+																				<!-- BUTTON // -->
+																				<table border="0" cellpadding="0" cellspacing="0" width="100%">
+																					<tr>
+																						<td align="center" valign="top">
+																							<table border="0" cellpadding="0" cellspacing="0" width="100%" class="flexibleContainer">
+																								<tr>
+																									<td align="center" valign="top" width="100%" class="flexibleContainerCell bottomShim">
+																										<table border="0" cellpadding="0" cellspacing="0" class="button secondary">
+																											<tr>
+																												<td align="center" valign="middle" class="buttonContent">
+																													<a href="#" target="_blank">Request More Info</a>
+																												</td>
+																											</tr>
+																										</table>
+																									</td>
+																								</tr>
+																							</table>
+																						</td>
+																					</tr>
+																				</table>
+																				<!-- // BUTTON -->
+																			</td>
+																	</tr>
+															</table>
+													</td>
+											</tr>
+										</table>
+										<!-- // END COLUMNS -->
+									</td>
+							</tr>
+						</table>
+						<!-- QUOTATION // -->
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" class="gray-footer">
+							<tr>
+								<td valign="top" >
+									<table align="left" border="0" cellpadding="0" cellspacing="0">
+										<tr>
+											<td class="gray-footer">
+												&ldquo;Quote.&rdquo;
+												<br>
+												<em>&mdash;Source Name</em>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+						<!-- // QUOTATION -->
+						<!-- FOOTER // -->
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" class="dark-footer">
+							<tr>
+								<td valign="top" >
+									<table align="left" border="0" cellpadding="0" cellspacing="0">
+										<tr>
+											<td class="dark-footer">
+												<a href="%%view_online%%" target="_self">View in browser</a>&nbsp;|&nbsp;
+												<a href="http://go.generalassemb.ly/email-preferences" target="_self">Update location</a>&nbsp;|&nbsp;
+												<a href="http://go.generalassemb.ly/fewer-emails-please" target="_self">Receive fewer emails</a>&nbsp;|&nbsp;
+												<a href="http://go.generalassemb.ly/opt-out" target="_self">Unsubscribe</a>
+												<br>
+												General Assembly Inc., 902 Broadway, 4th Floor, NY, NY 10010
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+						<!-- // FOOTER -->
+					<!-- // END TEMPLATE -->
+					</td>
+				</tr>
+			</table>
+		</center>
+	</body>
+</html>
