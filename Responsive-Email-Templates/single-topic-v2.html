@@ -128,6 +128,7 @@
 		.button {
 			border-radius: 3px; 
 			margin-bottom: 3px; 
+			margin-top:15px;
 		}
 
 		.button a{
@@ -334,42 +335,44 @@
 
 		/* ========== Footer Styles ========== */
 
-		.gray-footer{
-			background-color:#e6e6e6;
-			color:#000000;
-			font-family:Georgia, serif;
-			font-size:14px;
+		.footer{
 			line-height:150%;
 			padding-top:30px;
 			padding-right:50px;
 			padding-bottom:30px;
 			padding-left:50px;
 			text-align:left;
+		}
+
+		.footer.light{
+			background-color:#e6e6e6;
+			color:#000000;
+			font-family:Georgia, serif;
+			font-size:14px;
+			text-align:left;
 			margin-top: 30px;
 		}
 
-		.gray-footer em{
+		.footer.light em{
 			font-family:arial,sans-serif;
 			font-size:13px;
 			font-style:normal;
 			font-weight:bold;
 		}
 
-		.dark-footer{
+		.footer.dark{
 			background-color:#222222;
 			color:#b2b2b2;
 			font-family:arial, sans-serif;
 			font-size:11px;
-			line-height:150%;
-			padding-top:30px;
-			padding-right:50px;
-			padding-bottom:30px;
-			padding-left:50px;
-			text-align:left;
 		}
 
-		.dark-footer a{
+		.footer.dark a{
 			color:#b2b2b2;
+		}
+
+		.footer.dark.social{
+			padding-bottom:15px;
 		}
 
 		/* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
@@ -653,9 +656,9 @@
 						</tr>
 					</table>
 					<!-- QUOTATION // -->
-					<table border="0" cellpadding="0" cellspacing="0" width="100%" class="gray-footer">
+					<table border="0" cellpadding="0" cellspacing="0" width="100%" class="footer light">
 						<tr>
-							<td valign="top" class="gray-footer">
+							<td valign="top" class="footer light">
 											&ldquo;Coming together is a beginning; keeping together is progress; working together is success.&rdquo;
 											<br>
 											<em>&mdash; Henry Ford</em>
@@ -666,15 +669,25 @@
 					<!-- FOOTER // -->
 					<table border="0" cellpadding="0" cellspacing="0" width="100%">
 						<tr>
-							<td valign="top" class="dark-footer" style="padding-bottom:14px;">
+							<td valign="top" class="footer dark social">
+								<a href="https://www.facebook.com/gnrlassembly"><img src="http://merylfriedman.github.io/Responsive-Email-Templates/images/facebook.png" width="40px"></a>&nbsp;&nbsp;&nbsp;
+								<a href="https://twitter.com/ga"><img src="http://merylfriedman.github.io/Responsive-Email-Templates/images/twitter.png" width="40px"></a>&nbsp;&nbsp;&nbsp;
+								<a href="http://instagram.com/generalassembly/"><img src="http://merylfriedman.github.io/Responsive-Email-Templates/images/instagram.png" width="40px"></a>&nbsp;&nbsp;&nbsp;
+								<a href="%%addthis_url_email%%">
+									<img src="http://merylfriedman.github.io/Responsive-Email-Templates/images/email.png" width="40px">
+								</a>
+							</td>
+						</tr>
+<!-- 						<tr>
+							<td valign="top" class="dark-footer">
 								<a href="https://www.facebook.com/gnrlassembly">Like us on Facebook</a>&nbsp;&nbsp;&nbsp;
 								<a href="https://twitter.com/ga">Follow us on Twitter</a>&nbsp;&nbsp;&nbsp;
 								<a href="http://instagram.com/generalassembly/">Follow us on Instagram</a>&nbsp;&nbsp;&nbsp;
 								<a href="%%addthis_url_email%%">Forward to a friend</a>
 							</td>
-						</tr>
+						</tr> -->
 						<tr>
-							<td valign="top" class="dark-footer" style="padding-top:0; padding-bottom:0;">
+							<td valign="top" class="footer dark" style="padding-top:0; padding-bottom:0;">
 								<a href="%%view_online%%" target="_self">View in browser</a>&nbsp;&nbsp;&nbsp;
 								<a href="http://go.generalassemb.ly/email-preferences" target="_self">Update location</a>&nbsp;&nbsp;&nbsp;
 								<a href="http://go.generalassemb.ly/fewer-emails-please" target="_self">Receive fewer emails</a>&nbsp;&nbsp;&nbsp;
@@ -682,7 +695,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td valign="top" class="dark-footer" style="padding-top:14px;">
+							<td valign="top" class="footer dark" style="padding-top:14px;">
 								General Assembly Inc., 902 Broadway, 4th Floor, NY, NY 10010
 							</td>
 						</tr>
