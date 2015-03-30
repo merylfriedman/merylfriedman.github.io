@@ -81,9 +81,9 @@
 			font-weight:bold;
 			line-height:100%;
 			letter-spacing:normal;
-			margin-top:10px;
+			margin-top:30px;
 			margin-right:0;
-			margin-bottom:25px;
+			margin-bottom:15px;
 			margin-left:0;
 			text-align:center;
 			text-transform: uppercase;
@@ -120,9 +120,17 @@
 			line-height:150%;
 		}
 
+		a:link, a:visited, a .yshortcuts {
+			color:#000000;
+			font-weight:bold;
+			text-decoration:underline;
+			font-family:Arial, sans-serif;
+			font-size: 15px;
+		}
+
 		.button {
 			border-radius: 3px; 
-			margin-bottom: 3px; 
+			margin-bottom: 40px; 
 			margin-top:15px;
 		}
 
@@ -150,7 +158,7 @@
 			color:#383838; 
 		}
 
-		.buttonContent {
+		.buttonContent a{
 			font-family:Arial, sans-serif; 
 			font-size:20px; 
 			font-weight:bold; 
@@ -164,10 +172,6 @@
 
 		/*////// FRAMEWORK STYLES //////*/
 
-/*		.flexibleContainer.even table{
-			width: 280px;
-		}*/
-
 		.flexibleContainerCell {
 			padding-top:0; 
 			padding-right:0; 
@@ -179,13 +183,17 @@
 			height:auto;
 			padding-bottom: 15px;
 		}
+
+		.topShim{
+			padding-top:20px;
+		}
 		
 		.bottomShim{
-			padding-bottom:40px;
+			padding-bottom:20px;
 		}
 
 		.imageContent, .imageContentLast{padding-bottom:16px;}
-		.nestedContainerCell{padding-top:20px; padding-Right:20px; padding-Left:20px;}
+		.nestedContainerCell{padding-top:20px; padding-right:20px; padding-left:20px;}
 
 		/* ========== Header Styles ========== */
 
@@ -255,28 +263,6 @@
 			padding-right:0px;
 			padding-bottom:16px;
 			padding-left:0px;
-		}
-
-		.bodyContent{
-			text-align:left;
-		}
-
-		.bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
-			color:#000000;
-			font-weight:bold;
-			text-decoration:underline;
-			font-family:Arial, sans-serif;
-			font-size: 15px;
-		}
-
-		.bodyContent img{
-			display:inline;
-			height:auto;
-			max-width:600px;
-		}
-
-		.bodyContent strong{ 
-			font-size: 15px;
 		}
 
 		.mainImage {
@@ -354,15 +340,12 @@
 			font-weight:bold;
 		}
 
-		.footer.dark{
+		.footer.dark, .footer.dark a{
 			background-color:#222222;
 			color:#b2b2b2;
 			font-family:arial, sans-serif;
 			font-size:11px;
-		}
-
-		.footer.dark a{
-			color:#b2b2b2;
+			font-weight: normal;
 		}
 
 		.footer.dark.social{
@@ -377,7 +360,10 @@
 							body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
 
 			/* /\/\/\/\/\/\/ MOBILE RESET STYLES /\/\/\/\/\/\/ */
-			#bodyCell{padding:0px !important;}
+			#bodyCell{
+				padding-left: 10px !important;
+				padding-right: 10px !important;
+			}
 
 			/* /\/\/\/\/\/\/ MOBILE TEMPLATE STYLES /\/\/\/\/\/\/ */
 
@@ -410,6 +396,15 @@
 
 			p{
 				margin-bottom:16px !important;
+				font-size:18px !important;
+			}
+
+			a:link, a:visited, a .yshortcuts {
+				font-size: 17px !important;
+			}
+
+			strong{ 
+				font-size: 17px !important;
 			}
 
 			/* ======== Header Styles ======== */
@@ -429,29 +424,26 @@
 
 			/* ======== Body Styles ======== */
 
-			.bodyContent{
-				font-size:18px !important;
-				line-height:135% !important;
-				padding-right:10px;
-				padding-left:10px;
-			}
-
 			.doubleRule{
 				padding-right:5px;
 				padding-left:5px;
 			}
 
-			.bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
-				font-size: 17px !important;
-			}
-
-			.bodyContent strong{ 
-				font-size: 17px !important;
-			}
-
 			.button {
 				width: 100% !important;
 			}
+
+			.buttonContent a{
+			font-family:Arial, sans-serif; 
+			font-size:60px; 
+			font-weight:bold; 
+			line-height:100%; 
+			padding-bottom:20px; 
+			padding-left:40px; 
+			padding-right:40px; 
+			padding-top:20px; 
+			letter-spacing:.02em;
+		}
 
 			/* ======== Column Styles ======== */
 
@@ -515,7 +507,7 @@
 				font-size:15px !important;
 			}
 
-			.footer.dark{
+			.footer.dark, .footer.dark a{
 				font-size:14px !important;
 				line-height:120% !important;
 				padding-right:30px !important;
