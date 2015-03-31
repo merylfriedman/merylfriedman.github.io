@@ -282,6 +282,9 @@
 
 		.pullquote {
 			text-align: center;
+		}
+
+		.pullquote p{
 			font-size: 20px;
 		}
 
