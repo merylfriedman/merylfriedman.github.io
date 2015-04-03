@@ -111,7 +111,7 @@
 			font-weight:bold;
 		}
 
-		p{
+/*		p{
 			margin-top:0;
 			margin-right:0;
 			margin-bottom:8px;
@@ -119,7 +119,7 @@
 			font-family:Georgia,serif;
 			font-size:16px;
 			line-height:150%;
-		}
+		}*/
 
 		a:link, a:visited, a .yshortcuts {
 			color:#000000;
@@ -127,6 +127,16 @@
 			text-decoration:underline;
 			font-family:Arial, sans-serif;
 			font-size: 15px;
+		}
+
+		.bodyCopy {
+			margin-top:0;
+			margin-right:0;
+			margin-bottom:8px;
+			margin-left:0;
+			font-family:Georgia,serif;
+			font-size:16px;
+			line-height:150%;
 		}
 
 		.button {
@@ -175,6 +185,10 @@
 			width: 100% !important;
 		}
 
+		.partnerLogos img{
+		width: 30px;
+		}
+
 		/*////// FRAMEWORK STYLES //////*/
 
 		.flexibleContainerCell {
@@ -197,8 +211,15 @@
 			padding-bottom:25px;
 		}
 
-		.imageContent, .imageContentLast{padding-bottom:16px;}
-		.nestedContainerCell{padding-top:20px; padding-right:20px; padding-left:20px;}
+		.imageContent, .imageContentLast{
+			padding-bottom:16px;
+		}
+
+		.nestedContainerCell{
+			padding-top:20px; 
+			padding-right:20px; 
+			padding-left:20px;
+		}
 
 		/* ========== Header Styles ========== */
 
@@ -282,11 +303,27 @@
 
 		.pullquote {
 			text-align: center;
+			background-color: #ececec;
+			padding-top: 40px;
+			padding-bottom: 40px;
+			padding-left: 40px;
+			padding-right: 40px;
+			/*max-width: 75%;*/
 		}
 
 		.pullquote p{
 			font-size: 20px;
+			line-height: 150%;
 		}
+
+		.pullquote strong{
+			font-size: 15px;
+			line-height: 150%;
+			/*color: #BE0201;*/
+			color: #666666;
+		}
+
+
 
 		/* ========== Column Styles ========== */
 
