@@ -198,7 +198,7 @@
 		}
 
 		.flexibleImage{
-			width: 280px;
+			width: 100%;
 			height:auto;
 			padding-bottom: 15px;
 		}
@@ -329,14 +329,13 @@
 
 		.templateColumnContainer{width:280px;}
 
-		#templateColumns{
+/*		#templateColumns{
 			background-color:#FFFFFF;
-		}
+		}*/
 
-		.leftColumnContent{
-			color:#505050;
-			font-family:Arial,sans-serif;
-			font-size:14px;
+		.ColumnContent.left{
+			font-family:Georgia,serif;
+			font-size:16px;
 			line-height:150%;
 			padding-top:0;
 			padding-right:10px;
@@ -345,10 +344,9 @@
 			text-align:left;
 		}
 
-		.rightColumnContent{
-			color:#505050;
-			font-family:Arial,sans-serif;
-			font-size:14px;
+		.ColumnContent.right{
+			font-family:Georgia,serif;
+			font-size:16px;
 			line-height:150%;
 			padding-top:0;
 			padding-right:0;
@@ -495,6 +493,10 @@
 			letter-spacing:.02em;
 		}
 
+		.pullquote p{
+			font-size: 24px !important;
+		}
+
 			/* ======== Column Styles ======== */
 
 			.templateColumnContainer{
@@ -546,11 +548,14 @@
 
 			/* ======== Footer Styles ======== */
 
+			.footer{
+				padding-right:10px !important;
+				padding-left:10px !important;
+			}
+
 			.footer.light{
 				font-size:16px !important;
 				line-height:120% !important;
-				padding-right:30px !important;
-				padding-left:30px !important;
 			}
 
 			.footer.light em{
@@ -560,9 +565,8 @@
 			.footer.dark, .footer.dark a{
 				font-size:14px !important;
 				line-height:120% !important;
-				padding-right:30px !important;
-				padding-left:30px !important;
 			}
 
-			.footer.dark a{display:block !important;} /* Place footer social and utility links on their own lines, for easier access */
+			.footer.dark.textLink a{
+				display:block !important;} /* Place footer social and utility links on their own lines, for easier access */
 			}
