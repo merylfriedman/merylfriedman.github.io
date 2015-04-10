@@ -72,7 +72,7 @@
 			text-align:left;
 		}
 
-		h3{
+		h6{
 			color:#ff0099 !important;
 			display:block;
 			font-family:Arial,sans-serif;
@@ -97,13 +97,13 @@
 			font-style:normal;
 			font-weight:bold;
 			line-height:100%;
-			letter-spacing:normal;
 			margin-top:0;
 			margin-right:0;
 			margin-bottom:0;
 			margin-left:0;
 			text-align:left;
 			text-transform: uppercase;
+			letter-spacing: .2px;
 		}
 
 		strong{
@@ -317,10 +317,11 @@
 		}
 
 		.pullquote strong{
-			font-size: 15px;
+			font-size: 12px;
 			line-height: 150%;
+			letter-spacing: .2px;
 			/*color: #BE0201;*/
-			color: #666666;
+			/*color: #666666;*/
 		}
 
 
@@ -328,10 +329,6 @@
 		/* ========== Column Styles ========== */
 
 		.templateColumnContainer{width:280px;}
-
-/*		#templateColumns{
-			background-color:#FFFFFF;
-		}*/
 
 		.ColumnContent.left{
 			font-family:Georgia,serif;
@@ -355,10 +352,23 @@
 			text-align:left;
 		}
 
-		.leftColumnContent img, .rightColumnContent img{
+		.leftColumnContent img, .centerColumnContent img, .rightColumnContent img{
 			display:inline;
 			height:auto;
 			max-width:280px;
+		}
+
+		.leftColumnImg {
+			padding-right: 20px;
+		}
+
+		.centerColumnImg{
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+
+		.rightColumnImg{
+			padding-left: 20px;
 		}
 
 		/* ========== Footer Styles ========== */
@@ -417,6 +427,10 @@
 
 			/* ======== Page Styles ======== */
 
+		#templateHeader{
+			margin-bottom: 25px !important;
+		}
+
 			.templateContainer{
 				max-width:600px !important;
 				width:100% !important;
@@ -432,7 +446,7 @@
 				line-height:100% !important;
 			}
 
-			h3{
+			h6{
 				font-size:18px !important;
 				line-height:100% !important;
 			}
@@ -472,10 +486,10 @@
 
 			/* ======== Body Styles ======== */
 
-			.doubleRule{
+/*			.doubleRule{
 				padding-right:5px;
 				padding-left:5px;
-			}
+			}*/
 
 			.button {
 				width: 100% !important;
@@ -520,6 +534,12 @@
 				font-size:16px !important;
 				line-height:125% !important;
 				padding-left:0;
+			}
+
+			.leftColumnImg, .centerColumnImg, .rightColumnImg{
+				padding-left: 0 !important;
+				padding-right: 0 !important;
+				text-align: center;
 			}
 
 				/*////// FRAMEWORK STYLES //////*/
